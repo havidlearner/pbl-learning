@@ -14,7 +14,7 @@ figcaption {
   }
 
 nav {
-  display: block;
+  clear: both;
   }
 
 nav li {
