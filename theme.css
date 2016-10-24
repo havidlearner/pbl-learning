@@ -17,13 +17,22 @@ nav li {
   background: #00d0d2;
   border-right: #fff solid;
   list-style: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 16%;
+  padding: 10px 5px 10px 5px;
   float: left;
   }
 
 nav li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
   }
+
+nav li a:hover {
+  background: #c6a707;
+  }
+
+nav li a:active {
+  color: #000;
+  background: #fff200;
+  }
+  
