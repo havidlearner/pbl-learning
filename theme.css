@@ -1,3 +1,14 @@
 /*****
+theme.css
 Style Sheet for Heidi Reina's course in Modern Web Design
 ******/
+
+figure {
+  float: right; 
+  margin: 0 10px 10px 10px;
+  }
+
+figcaption {
+  font-size: 11px; 
+  margin-top: 5px;
+  }
