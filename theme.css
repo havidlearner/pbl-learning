@@ -18,6 +18,8 @@ nav li {
   background: #00d0d2;
   border-right: 1px #fff;
   text-decoration: none;
+  list-style: none;
+  height: 20px;
   width: 16%;
   float: left;
   }
