@@ -3,6 +3,10 @@ theme.css
 Style Sheet for Heidi Reina's course in Modern Web Design
 ******/
 
+body {
+  margin:10px 20px 10px 20px;
+  }
+
 figure {
   float: right; 
   margin: 0 10px 10px 10px;
