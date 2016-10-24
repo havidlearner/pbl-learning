@@ -19,7 +19,8 @@ nav li {
   border-right: 1px #fff;
   text-decoration: none;
   list-style: none;
-  height: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 16%;
   float: left;
   }
