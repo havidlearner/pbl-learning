@@ -13,8 +13,8 @@ figcaption {
   margin-top: 5px;
   }
 
-nav {
-  clear: both;
+header {
+  clear: after;
   }
 
 nav li {
