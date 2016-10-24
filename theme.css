@@ -14,13 +14,16 @@ figcaption {
   }
 
 nav li {
-  color: #fff;
   background: #00d0d2;
-  border-right: 1px #fff;
-  text-decoration: none;
+  border-right: #fff solid;
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 16%;
   float: left;
+  }
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
   }
