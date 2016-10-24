@@ -12,3 +12,12 @@ figcaption {
   font-size: 11px; 
   margin-top: 5px;
   }
+
+nav li {
+  color: #fff;
+  background: #00d0d2;
+  border-right: 1px #fff;
+  text-decoration: none;
+  width: 16%;
+  float: left;
+  }
