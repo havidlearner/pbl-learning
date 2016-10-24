@@ -13,7 +13,8 @@ figcaption {
   margin-top: 5px;
   }
 
-header {
+nav ul {
+  display: inline-block;
   clear: after;
   }
 
@@ -34,6 +35,8 @@ nav li a {
 nav li:hover {
   background: #c6a707;
   }
+
+
 
 
   
