@@ -9,6 +9,7 @@ Style Sheet for Heidi Reina's course in Modern Web Design
 body {
   font-family: "Lato", Arial, sans-serif;
   font-size: 17px;
+  line-height: 1.3em
   margin:10px 40px 10px 40px;
   }
 
@@ -31,11 +32,13 @@ h1, h2 {
 h1 {
   font-size: 3em;
   letter-spacing: 2px;
+  margin-bottom: .3em;
   }
 
 h2 {
   font-size: 1.5em;
   letter-spacing: 1px;
+  margin-bottom: .5em;
   }
   
 nav ul {
