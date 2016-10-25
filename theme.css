@@ -18,7 +18,7 @@ aside {
     float: right;
     margin-left: 15px;
     border: solid 2px #9e9c9c;
-    background: #ccc;
+    background: #9e9c9c;
   }
 
 body {
@@ -37,7 +37,7 @@ figure {
 figcaption {
   font-size: 14px; 
   color: #c97406;
-  margin-top: 5px;
+  padding 1em;
   }
 
 footer {
