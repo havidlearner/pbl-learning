@@ -19,7 +19,8 @@ body {
 
 figure {
   float: right; 
-  margin: 0 10px 10px 10px;
+  margin: 0 10px 15px 15px;
+  box-shadow: 0 0 10px #949292;
   }
 
 figcaption {
