@@ -24,13 +24,6 @@ figcaption {
   margin-top: 5px;
   }
 
-footer p {
-  padding: 20px 10px 20px 10px;
-  background: #c97406;
-  color: #fff;
-  font-size: .8em;
-  }
-
 h1, h2 {
   font-family: "Abril Fatface", Arial, sans-serif;
   font-weight: bold;
@@ -70,6 +63,13 @@ nav li a {
 
 nav li:hover {
   background: #c6a707;
+  }
+
+footer p {
+  padding: 20px 10px 20px 10px;
+  background: #c97406;
+  color: #fff;
+  font-size: .8em;
   }
 
 
