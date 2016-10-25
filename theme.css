@@ -2,6 +2,8 @@
 theme.css
 Style Sheet for Heidi Reina's course in Modern Web Design
 ******/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface'); /** for headlines **/
+
 
 body {
   margin:10px 40px 10px 40px;
@@ -18,7 +20,7 @@ figcaption {
   }
 
 h1, h2 {
-  @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+  font-family: "Abril Fatface", Arial, sans-serif;
   font-weight: bold;
   color: #028e8a;
   }
