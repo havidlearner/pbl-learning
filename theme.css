@@ -17,6 +17,20 @@ figcaption {
   margin-top: 5px;
   }
 
+h1, h2 {
+  @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+  font-weight: bold;
+  color: #028e8a;
+  }
+  
+h1 {
+  font-size: 2em;
+  }
+
+h2 {
+  font-size: 1.5em;
+  }
+  
 nav ul {
   display: inline-block;
   clear: after;
