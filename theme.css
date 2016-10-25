@@ -70,7 +70,7 @@ header {
   
 nav ul {
   display: inline-block;
-  clear: after;
+  margin-bottom: 0;
   }
 
 nav li {
