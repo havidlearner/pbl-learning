@@ -70,7 +70,11 @@ header {
   background: rgba(197, 190, 180, .5);
   padding: 0 2%;
   }
-  
+ 
+.paragraph-list li {
+  padding-bottom: .5em;
+  }
+
 nav ul {
   display: inline-block;
   margin-bottom: 0;
