@@ -54,6 +54,11 @@ h2 {
   letter-spacing: 1px;
   margin-bottom: .5em;
   }
+
+header {
+  background: rgb(197, 190, 180);
+  background: rgba(197, 190, 180, .5);
+  }
   
 nav ul {
   display: inline-block;
@@ -62,7 +67,8 @@ nav ul {
 
 nav li {
   background: #00d0d2;
-  border-right: #fff solid;
+  border-right: rgb(197, 190, 180) solid;
+  border-right: rgba(197, 190, 180, .5) solid;
   list-style: none;
   padding: 10px;
   float: left;
