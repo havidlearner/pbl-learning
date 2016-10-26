@@ -60,7 +60,6 @@ blockquote p {
 body {
   margin: 0 auto;
   display: block;
-  position: fixed;
   background: #63856a; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover,  #63856a 1%, #3c5a40 100%); /* FF3.6+ */
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#63856a), color-stop(100%,#3c5a40)); /* Chrome,Safari4+ */
