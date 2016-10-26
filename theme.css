@@ -71,6 +71,7 @@ figure {
 
 figcaption {
   font-size: 14px; 
+  line-height: 1.1em;
   color: #c97406;
   padding: 1em;
   }
