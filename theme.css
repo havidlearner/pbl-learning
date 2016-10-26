@@ -114,6 +114,7 @@ header {
   padding: 0 2%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border: #ccc solid 1px;
   }
  
 .paragraph-list li {
