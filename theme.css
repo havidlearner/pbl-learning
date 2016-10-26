@@ -110,6 +110,8 @@ h1 {
 h2 {
   font-size: 1.5em;
   letter-spacing: 1px;
+  position: relative;
+  padding-top: 1em;
   margin-bottom: .5em;
   }
 
