@@ -115,7 +115,8 @@ h1 {
   font-size: 3em;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px #ccc;
-  margin: .5em 0 .3em 5em;
+  width: 90%
+  margin: 0 auto;
   }
 
 h2 {
@@ -145,8 +146,8 @@ header {
 
 nav ul {
   display: inline-block;
-  margin-bottom: 0;
-  margin-left: 5em;
+  width: 90%
+  margin-bottom: 0 0 auto;
   }
 
 nav li:first-child {
