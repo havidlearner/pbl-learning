@@ -10,6 +10,7 @@ a:hover {
   }
 
 article {
+  margin: 0 40px;
   line-height: 1.75em;
   color: #150d0d;
   background: #f9f9f9;
@@ -77,6 +78,7 @@ figcaption {
   }
 
 footer {
+  margin: 0 40px 10px 40px; 
   padding: 1% 2%;
   background: #c97406;
   border-bottom-left-radius: 10px;
@@ -116,7 +118,7 @@ h2 {
   }
 
 header {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+71,e1e1e1+92,f6f6f6+100 */
+  margin: 10px 40px 0px 40px;
   background: #ffffff; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 71%, #e1e1e1 92%, #f6f6f6 100%); /* FF3.6-15 */
   background: -webkit-radial-gradient(center, ellipse cover,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 71%,#e1e1e1 92%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
