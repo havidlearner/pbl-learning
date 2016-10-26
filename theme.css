@@ -12,6 +12,8 @@ a:hover {
 article {
   background: #f9f9f9;
   padding: 2%;
+  border-left: #ccc solid 1px;
+  border-right: #ccc solid 1px;
   }
 
 aside {
