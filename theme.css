@@ -58,10 +58,12 @@ blockquote p {
   }
 
 body {
+  margin: 0 auto
+  display: fixed;
+  background-image: url(greenboard.jpg); 
   font-family: "Lato", Arial, sans-serif;
   font-size: 17px;
   line-height: 1.3em
-  margin: 10px 40px 10px 40px;
   }
 
 figure {
