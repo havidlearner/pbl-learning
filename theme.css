@@ -5,6 +5,10 @@ Style Sheet for Heidi Reina's course in Modern Web Design
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato');
 
+a:hover {
+  font-weight: bold;
+  }
+
 article {
   background: #f9f9f9;
   padding: 2%;
