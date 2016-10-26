@@ -96,9 +96,7 @@ h1 {
   font-size: 3em;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px #ccc;
-  margin-top: 0;
-  padding-top: 2%;
-  margin-bottom: .3em;
+  margin: .5em 0 .3em 5em;
   }
 
 h2 {
