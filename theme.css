@@ -133,6 +133,13 @@ nav li:hover {
   background: #c6a707;
   }
 
+p > a {
+	text-decoration: none;
+	border-bottom: 1px dotted; }
+
+p > a:hover {
+	border-bottom: 1px solid; }
+
 
 
 
