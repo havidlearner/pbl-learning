@@ -147,6 +147,12 @@ header {
   border: #ccc solid 1px;
   }
  
+iframe {
+    width: 560px;
+    display: block;
+    margin: 0 auto;
+}
+
 .paragraph-list li {
   padding-bottom: .5em;
   }
@@ -186,8 +192,11 @@ nav li:hover {
   background: #c6a707;
   }
 
-.pblvideo {
-  margin: 0 auto;
+.pblvideo h2 {
+
+    width: 560px;
+    display: block;
+    margin: 0 auto;
   }
 
 
