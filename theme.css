@@ -116,7 +116,7 @@ h1 {
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px #ccc;
   max-width: 100%;
-  margin:  1em 0 .5em 0;
+  margin:  1em 0;
   text-align: center;
   }
 
@@ -203,11 +203,16 @@ nav li:hover {
 Modifications for mobile layouts
 *************************************************** */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
-h1 {
-  font-size: 1.5em;
-  letter-spacing: 1px;
+ footer {
+    margin: 0; 
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
   }
 
 }
@@ -216,11 +221,16 @@ h1 {
 Modifications for tablet layouts
 *************************************************** */
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
-h1 {
-  font-size: 2em;
-  letter-spacing: 1.25px;
+  footer {
+    margin: 0; 
+    padding: 1em;
+  }
+  
+  h1 {
+    font-size: 2em;
+    letter-spacing: 1.25px;
   }
 
 }
@@ -231,7 +241,9 @@ Modifications for large screen layouts
 
 @media only screen and (min-device-width : 1824px)  {
 
-/* Styles */
+  footer {
+    width: 1560px;  
+  }
 
 }
 
