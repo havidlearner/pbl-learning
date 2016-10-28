@@ -203,14 +203,24 @@ nav li:hover {
 Modifications for mobile layouts
 *************************************************** */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
+  article {
+    margin: 0; 
+    padding: 1em;
+  }
+  
  footer {
     margin: 0; 
     padding: 1em;
   }
   
-  h1 {
+  header {
+    margin: 0; 
+    padding: 1em;
+  }
+  
+  header > h1 {
     font-size: 1.5em;
     letter-spacing: 1px;
   }
@@ -223,12 +233,22 @@ Modifications for tablet layouts
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 
+  article {
+    margin: 0; 
+    padding: 1em;
+  }
+  
   footer {
     margin: 0; 
     padding: 1em;
   }
   
-  h1 {
+  header {
+    margin: 0; 
+    padding: 1em;
+  }
+  
+  header > h1 {
     font-size: 2em;
     letter-spacing: 1.25px;
   }
@@ -241,7 +261,15 @@ Modifications for large screen layouts
 
 @media only screen and (min-device-width : 1824px)  {
 
+  article {
+    width: 1560px;  
+  }
+  
   footer {
+    width: 1560px;  
+  }
+  
+  header {
     width: 1560px;  
   }
 
