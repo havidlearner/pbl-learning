@@ -105,7 +105,7 @@ footer p > a {
   color: #fff;
   }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: "Abril Fatface", Arial, sans-serif;
   font-weight: bold;
   color: #c97406;
@@ -120,6 +120,14 @@ h1 {
 
 h2 {
   font-size: 1.5em;
+  letter-spacing: 1px;
+  position: relative;
+  padding-top: 1em;
+  margin-bottom: .5em;
+  }
+
+h3 {
+  font-size: 1.25em;
   letter-spacing: 1px;
   position: relative;
   padding-top: 1em;
@@ -178,7 +186,9 @@ nav li:hover {
   background: #c6a707;
   }
 
-
+.pblvideo {
+  margin: 0 auto;
+  }
 
 
 
