@@ -115,7 +115,9 @@ h1 {
   font-size: 3em;
   letter-spacing: 2px;
   text-shadow: 2px 2px 3px #ccc;
-  margin: 1em 0 .5em 4em;
+  max-width: 100%
+  margin:  1em 0 .5em 0;
+  text-align: center;
   }
 
 h2 {
@@ -194,8 +196,40 @@ nav li:hover {
   background: #c6a707;
   }
 
+/*****************************************************
+Modifications for mobile layouts
+*************************************************** */
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
+h1 {
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  }
 
+}
+
+/*****************************************************
+Modifications for tablet layouts
+*************************************************** */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+h1 {
+  font-size: 2em;
+  letter-spacing: 1.25px;
+  }
+
+}
+
+/*****************************************************
+Modifications for large screen layouts
+*************************************************** */
+
+@media only screen and (min-device-width : 1824px)  {
+
+/* Styles */
+
+}
 
   
