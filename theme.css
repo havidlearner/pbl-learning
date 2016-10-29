@@ -240,6 +240,7 @@ Modifications for mobile layouts
   
   aside {
     float: none;
+    width: 100%;
   }
   
   blockquote {
