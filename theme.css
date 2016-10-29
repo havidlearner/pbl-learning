@@ -147,6 +147,7 @@ h2 {
 header {
   display: block;
   max-width: 100%;
+  height: 165px;
   margin: 0;
   background: #ffffff; /* Old browsers */
   background: -moz-radial-gradient(center, ellipse cover,  #ffffff 0%, #f1f1f1 50%, #e1e1e1 71%, #e1e1e1 92%, #f6f6f6 100%); /* FF3.6-15 */
