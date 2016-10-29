@@ -22,7 +22,6 @@ article {
   }
 
 article > p {
-  padding-right: 10%;
   padding-bottom: .3em;
   }
 
@@ -171,6 +170,7 @@ iframe {
   }
 
 .paragraph-list li {
+  padding-right: 1.3em;
   padding-bottom: .5em;
   }
 
