@@ -260,6 +260,11 @@ Modifications for mobile layouts
     margin: 0 auto;
   }
   
+  img {
+    width: 100%;
+  }
+      
+  
   main {
     display: block;
     max-width: 100%;
