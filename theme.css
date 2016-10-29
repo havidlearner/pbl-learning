@@ -241,8 +241,8 @@ Modifications for mobile layouts
   aside {
     float: none;
     width: 100%;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: 0;
+    margin: 1em auto;
   }
   
   blockquote {
