@@ -156,12 +156,16 @@ header {
   border-top-right-radius: 10px;
   border: #ccc solid 1px;
   }
- 
+
 iframe {
     width: 560px;
     display: block;
     margin: 0 auto;
 }
+
+img {
+  max-width: 100%;
+  }
 
  main {
     display: block;
