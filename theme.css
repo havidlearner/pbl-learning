@@ -230,7 +230,7 @@ Modifications for mobile layouts
   article {
     font-size: 16px;
     line-height: 1.25em;
-    padding: 2% 5%;
+    padding: 2% 4%;
     }
   
   article > h2 {
@@ -301,6 +301,14 @@ Modifications for tablet layouts
     padding: 1em 0;
   }
 
+  nav ul {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    font-size: .90em
+    width: 55em;
+    text-align: center;
+  }
 }
 
 /*****************************************************
