@@ -222,7 +222,7 @@ nav li:hover {
 Modifications for mobile layouts
 *************************************************** */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
 
   article {
     font-size: 16px;
@@ -265,7 +265,7 @@ Modifications for mobile layouts
 Modifications for tablet layouts
 *************************************************** */
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   
   main {
     display: block;
@@ -284,7 +284,7 @@ Modifications for tablet layouts
 Modifications for large screen layouts
 *************************************************** */
 
-@media only screen and (min-device-width : 1824px)  {
+@media only screen and (min-width : 1824px)  {
 
   main {
     display: block;
