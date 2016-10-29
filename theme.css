@@ -169,6 +169,7 @@ iframe {
 
 img {
   max-width: 100%;
+  border-bottom: #7f7f7f solid 2px;
   }
 
  main {
