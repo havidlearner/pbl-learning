@@ -165,7 +165,7 @@ iframe {
 
  main {
     display: block;
-    max-width: 1024px;
+    max-width: 1172px;
     margin: 10px auto;
   }
 
@@ -257,7 +257,7 @@ Modifications for large screen layouts
 
   main {
     display: block;
-    max-width: 1172px;
+    max-width: 1200px;
     margin: 10px auto;
   }
 
