@@ -211,19 +211,10 @@ Modifications for mobile layouts
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
-  article {
-    margin: 0; 
-    padding: 1em;
-  }
-  
- footer {
-    margin: 0; 
-    padding: 1em;
-  }
-  
-  header {
-    margin: 0; 
-    padding: 1em;
+  main {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
   }
   
   header > h1 {
@@ -240,22 +231,9 @@ Modifications for tablet layouts
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   
   main {
-    margin: 0;
-  }
-
-  article {
-    margin: 0; 
-    padding: 1em;
-  }
-  
-  footer {
-    margin: 0; 
-    padding: 1em;
-  }
-  
-  header {
-    margin: 0; 
-    padding: 1em;
+    display: block;
+    max-width: 768px;
+    margin: 10px auto;
   }
   
   header > h1 {
