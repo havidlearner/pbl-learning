@@ -249,6 +249,15 @@ Modifications for mobile layouts
     font-size: 1.5em;
     letter-spacing: 1px;
   }
+  
+  nav ul {
+  display: block;
+  width: 20em;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  }
 
 }
 
