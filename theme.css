@@ -160,8 +160,9 @@ header {
   }
 
 iframe {
-    width: 560px;
     display: block;
+    width: 560px;
+    max-width: 100%
     margin: 0 auto;
 }
 
