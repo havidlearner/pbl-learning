@@ -218,6 +218,11 @@ Modifications for mobile layouts
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
 
+  body { 
+    font-size: 16px;
+    line-height: 1.25em;
+  }
+  
   main {
     display: block;
     max-width: 100%;
