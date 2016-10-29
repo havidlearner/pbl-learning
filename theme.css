@@ -230,6 +230,10 @@ Modifications for mobile layouts
     padding: 2% 5%;
     }
   
+  blockquote {
+    margin: 1em .3em 1.25em 1em;
+  }
+  
   body { 
     font-size: 16px;
     line-height: 1.25em;
