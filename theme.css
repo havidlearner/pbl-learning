@@ -238,6 +238,10 @@ Modifications for mobile layouts
     letter-spacing: 1px;
   }
   
+  aside {
+    float: none;
+  }
+  
   blockquote {
     margin: 1em .3em 1.25em 1em;
   }
