@@ -254,6 +254,11 @@ Modifications for mobile layouts
     line-height: 1.25em;
   }
   
+  figure {
+    float: none;
+    margin: 0 auto;
+  }
+  
   main {
     display: block;
     max-width: 100%;
