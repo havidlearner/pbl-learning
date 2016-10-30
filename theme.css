@@ -262,12 +262,19 @@ Modifications for mobile layouts
     letter-spacing: 1px;
   }
   
+  nav li {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+  
+  
    nav ul {
     display: block;
     padding: 0;
     margin: 0 auto;
-    font-size: 10px;
-    width: 30em;
+    font-size: 1em;
+    max-width: 100%;
     text-align: center;
   }
 }
