@@ -248,6 +248,12 @@ Modifications for mobile layouts
   
   header {
     height: 320px;
+    padding: 0;
+  }
+  
+   header > h1 {
+    font-size: 1.375em;
+    letter-spacing: .9px;
   }
 
   
@@ -260,15 +266,6 @@ Modifications for mobile layouts
     display: block;
     max-width: 100%;
     margin: 10px auto;
-  }
-  
-  header {
-    padding: 0;
-  }
-  
-  header > h1 {
-    font-size: 1.5em;
-    letter-spacing: 1px;
   }
   
   nav li {
@@ -287,6 +284,7 @@ Modifications for mobile layouts
     font-size: 1em;
     max-width: 100%;
     text-align: center;
+    overflow: hidden;
   }
 }
 
