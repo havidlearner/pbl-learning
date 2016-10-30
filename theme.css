@@ -96,8 +96,6 @@ footer {
   margin; 0;
   padding: 1% 2%;
   background: #c97406;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
   }
 
 footer p {
@@ -155,8 +153,6 @@ header {
   background: radial-gradient(ellipse at center,  #ffffff 0%,#f1f1f1 50%,#e1e1e1 71%,#e1e1e1 92%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
   padding: 0 2%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   border: #ccc solid 1px;
   }
 
@@ -188,16 +184,6 @@ nav ul {
   width: 52em;
   text-align: center;
   margin: 0 auto;
-  }
-
-nav li:first-child {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  }
-
-nav li:last-child {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
   }
   
 nav li {
