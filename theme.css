@@ -246,6 +246,11 @@ Modifications for mobile layouts
     margin: 0 auto;
   }
   
+  header {
+    height: 310px;
+  }
+
+  
   img {
     width: 100%;
   }
@@ -266,6 +271,8 @@ Modifications for mobile layouts
     display: block;
     float: none;
     width: 100%;
+    margin: 0 auto;
+    border-bottom: #7f7f7f solid;
   }
   
   
