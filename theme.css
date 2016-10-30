@@ -247,7 +247,7 @@ Modifications for mobile layouts
   }
   
   header {
-    height: 310px;
+    height: 320px;
   }
 
   
@@ -272,7 +272,7 @@ Modifications for mobile layouts
     float: none;
     width: 100%;
     margin: 0 auto;
-    border-bottom: #7f7f7f solid;
+    border-bottom: #7f7f7f dashed 1px;
   }
   
   
