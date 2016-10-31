@@ -277,7 +277,7 @@ span.footnote {
     position: relative;
     text-align: center;
     display: none;
-    top: -30px;
+    top: -50px;
     left: 20px;
     padding:0 20px; 
     max-width: 75%;
@@ -291,7 +291,7 @@ sup {
 }
 
 sup:hover + span.footnote {
-    display: inline-block;
+    display: block;
     animation: fadeInRight 1.5s 1;
     -webkit-animation: fadeInRight 1.5s 1;
     -moz-animation: fadeInRight 1.5s 1;
