@@ -288,6 +288,7 @@ sup {
     font-size: smaller;
     font-weight: bold;
     color: blue;
+    padding-right: 1em;
 }
 
 sup:hover + span.footnote {
