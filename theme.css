@@ -261,7 +261,7 @@ span.footnote {
     font-size: inherit;
     height: auto;
     line-height: 30px;
-    position: absolute;
+    position: relative;
     text-align: center;
     display: none;
     top: -50px;
@@ -283,7 +283,6 @@ sup:hover + span.footnote {
     animation: fadeInRight 1.5s 1;
     -webkit-animation: fadeInRight 1.5s 1;
     -moz-animation: fadeInRight 1.5s 1;
-    -o-animation: fadeInRight 1.5s 1;
     }
 
 /*****************************************************
