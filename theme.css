@@ -264,8 +264,8 @@ span.footnote {
     line-height: 1.1em;
     position: relative;
     text-align: center;
+    vertical-align: text-top;
     display: none;
-    top: -50px;
     left: 20px;
     padding: 10px 8px; 
     max-width: 100%;
