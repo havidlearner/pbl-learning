@@ -261,18 +261,18 @@ span.footnote {
     font-size: inherit;
     height: auto;
     line-height: 30px;
-    position: relative;
+    position: absolute;
     text-align: center;
     display: none;
     top: -50px;
     left: 20px;
     padding:0 20px; 
-    max-width: 75%;
+    max-width: 100%;
 }
 
 sup {
     vertical-align: super;
-    font-size: smaller;
+    font-size: .6em;
     font-weight: bold;
     color: blue;
     padding-right: .75em;
