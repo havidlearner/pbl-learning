@@ -28,3 +28,15 @@
         callback();
     };
 }(window));
+
+//add class for smaller screen sizes
+window.watchResize(function(){
+    
+    if (window.innerWidth < 768) {
+        //do stuff
+    } else {
+        //do other stuff
+    }
+    
+});
+
