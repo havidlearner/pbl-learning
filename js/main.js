@@ -1,6 +1,5 @@
 var $html = document.getElementsByTagName ( 'html' )[0],
     page_classes = $html.classList,
-    drawer_enabled_class = drawer-nav-enabled,
     toggleDrawerNav_running = false,
     $menu_opener = document.getElementById( 'nav-jump' ),
     $menu_closer = document.getElementById( 'menu-close' );
@@ -10,6 +9,8 @@ page_classes.add( drawer_enabled_class );
 
 // if not small screen and currently enabled
 page_classes.remove( drawer_enabled_class );
+
+var drawer_enabled_class = drawer-nav-enabled;
 
  // toggle the open class on the html element
 function toggleDrawerNav( event ){
