@@ -1,3 +1,7 @@
+var $html = document.getElementsByTagName ( 'html' )[0],
+    $menu_opener = document.getElementById( 'nav-jump' ),
+    $menu_closer = document.getElementById( 'menu-close' );
+
 // Get the active Media Query as defined in the CSS
 // https://gist.github.com/aarongustafson/a0558c185264355df359
 // Use the following format:
