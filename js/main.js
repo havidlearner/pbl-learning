@@ -24,9 +24,7 @@ function toggleDrawerNav( event ){
     page_classes.toggle( 'drawer_nav_open' );
     
     //timeout after .5 second
-    setTimeout(function(){
-        toggleDrawerNav_running = false;
-    } 500);
+    setTimeout(function() { toggleDrawerNav_running = false; }, 500);
 }
 
 $menu_opener .addEventListener( 'click', toggleDrawerNav, false );
