@@ -12,6 +12,7 @@ page_classes.remove( drawer_enabled_class );
 var drawer_enabled_class = drawer-nav-enabled;
 
 function toggleDrawerNav() {
+    //toggle the "open" class on the html element
     page_classes.toggle( 'drawer_nav_open' );
 }
 
