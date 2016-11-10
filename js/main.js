@@ -11,6 +11,10 @@ page_classes.remove( drawer_enabled_class );
 
 var drawer_enabled_class = drawer-nav-enabled;
 
+function toggleDrawerNav{
+    page_classes.toggle( 'drawer_nav_open' );
+}
+
  // toggle the open class on the html element
 var toggleDrawerNav_running = false;
 function toggleDrawerNav( event ){
@@ -23,6 +27,7 @@ function toggleDrawerNav( event ){
     toggleDrawerNav_running = true;
     
     page_classes.toggle( 'drawer_nav_open' );
+
     
     //timeout after .5 second
     setTimeout(function() { toggleDrawerNav_running = false; }, 500);
