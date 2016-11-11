@@ -3,12 +3,6 @@ var $html = document.getElementsByTagName ( 'html' )[0],
     $menu_opener = document.getElementById( 'nav-jump' ),
     $menu_closer = document.getElementById( 'menu-close' );
 
-// if small screen
-page_classes.add( drawer_enabled_class );
-
-// if not small screen and currently enabled
-page_classes.remove( drawer_enabled_class );
-
 var drawer_enabled_class = drawer-nav-enabled;
 
 function toggleDrawerNav() {
@@ -33,9 +27,6 @@ function toggleDrawerNav( event ){
     //timeout after .5 second
     setTimeout(function() { toggleDrawerNav_running = false; }, 500);
 }
-
-$menu_opener .addEventListener( 'click', toggleDrawerNav, false );
-$menu_opener .addEventListener( 'touchdown', toggleDrawerNav, false );
 
 // Get the active Media Query as defined in the CSS
 // https://gist.github.com/aarongustafson/a0558c185264355df359
@@ -107,12 +98,22 @@ window.getActiveMQ = function() {
 
 //add class for smaller screen sizes
 window.watchResize(function(){
+    var current_MQ = window.getActiveMQ();
     
-    if (window.innerWidth < 768) {
-        //do stuff
+    if (current_MQ == 'small' &&  ! page_classes.contains ( drawer_enabled_class )) {
+        //add the event handlers
+        $menu_opener .addEventListener( 'click', toggleDrawerNav, false );
+        $menu_opener .addEventListener( 'touchdown', toggleDrawerNav, false );
+        $menu_closer .addEventListener( 'click', toggleDrawerNav, false );
+        $menu_closer .addEventListener( 'touchdown', toggleDrawerNav, false );
+        page_classes.add( 'drawer-nav-enabled' );
     } else {
-        //do other stuff
+        //remove the event handlers
+        $menu_opener .removeEventListener( 'click', toggleDrawerNav, false );
+        $menu_opener .removeEventListener( 'touchdown', toggleDrawerNav, false );
+        $menu_closer .removeEventListener( 'click', toggleDrawerNav, false );
+        $menu_closer .removeEventListener( 'touchdown', toggleDrawerNav, false );
+        page_classes.remove( 'drawer-nav-enabled' );
     }
-    
 });
 
