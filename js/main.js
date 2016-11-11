@@ -3,7 +3,7 @@ var $html = document.getElementsByTagName ( 'html' )[0],
     $menu_opener = document.getElementById( 'nav-jump' ),
     $menu_closer = document.getElementById( 'menu-close' );
 
-var drawer_enabled_class = drawer-nav-enabled;
+var drawer_enabled_class = 'drawer-nav-enabled';
 
 function toggleDrawerNav() {
     //toggle the "open" class on the html element
