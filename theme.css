@@ -67,6 +67,7 @@ article {
   border-left: #ccc solid 1px;
   border-right: #ccc solid 1px;
   }
+/************************ */
 
 article > p {
   padding-bottom: .3em;
@@ -226,6 +227,19 @@ img {
   padding-bottom: .5em;
   }
 
+#nav-jump {
+    display: none;
+    border: 1px solid;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    font: bold .875em Lato, Helvetica, Arial, sans-serif;
+    padding: .5em;
+    text-transform: uppercase;
+    position: absolute;
+    top: .75em;
+    z-index: 1000;
+}
 nav ul {
   display: block;
   width: 52em;
@@ -350,6 +364,10 @@ Modifications for mobile layouts
     margin: 10px auto;
   }
   
+#nav-jump {
+    display: inline-block;
+  }
+
   nav li {
     display: block;
     float: none;
