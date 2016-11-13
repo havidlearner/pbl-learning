@@ -336,6 +336,25 @@ Modifications for mobile layouts
     line-height: 1.25em;
   }
   
+  body:not(:target) #menu-close {
+    border: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+  }
+  
+  .drawer-nav-open body #menu-close {
+    background: black;
+    background: rgba( 0, 0, 0, .5 );
+    left: -100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
   figure {
     float: none;
     max-width: 100%;
