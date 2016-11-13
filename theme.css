@@ -366,8 +366,7 @@ Modifications for mobile layouts
   
 #nav-jump {
     display: inline-block;
-    right: auto;
-    left: -999em;
+    right: 5px;
   }
 
   nav li {
